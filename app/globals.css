@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-inter: 'Inter', sans-serif;
+    --font-playfair: 'Playfair Display', serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-white text-primary;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gold hover:bg-gold-dark text-primary font-semibold px-8 py-3 rounded-sm transition-all duration-300 hover:shadow-lg;
+  }
+  
+  .btn-secondary {
+    @apply border-2 border-gold text-gold hover:bg-gold hover:text-primary font-semibold px-8 py-3 rounded-sm transition-all duration-300;
+  }
+  
+  .section-padding {
+    @apply py-20 px-4 md:px-8 lg:px-16;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto;
+  }
+  
+  .heading-primary {
+    @apply font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-primary;
+  }
+  
+  .heading-secondary {
+    @apply font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-primary;
+  }
+  
+  .text-gold-gradient {
+    @apply bg-gradient-to-r from-gold-light via-gold to-gold-dark bg-clip-text text-transparent;
+  }
+}
+
+@layer utilities {
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+  
+  .animation-delay-400 {
+    animation-delay: 400ms;
+  }
+}
