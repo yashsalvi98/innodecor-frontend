@@ -41,7 +41,7 @@ const Testimonials = () => {
             What Our <span className="text-gold">Clients Say</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Don't just take our word for it - hear from our satisfied clients
+            Don&apos;t just take our word for it - hear from our satisfied clients
           </p>
         </motion.div>
 
@@ -61,7 +61,7 @@ const Testimonials = () => {
                 ))}
               </div>
 
-              <p className="text-gray-300 mb-6 italic">"{testimonial.content}"</p>
+              <p className="text-gray-300 mb-6 italic">&quot;{testimonial.content}&quot;</p>
 
               <div>
                 <h4 className="font-semibold text-gold">{testimonial.name}</h4>

@@ -26,7 +26,7 @@ const CTA = () => {
             Ready to Transform Your Space?
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            Let's bring your vision to life with our expert design and construction services
+            Let&apos;s bring your vision to life with our expert design and construction services
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

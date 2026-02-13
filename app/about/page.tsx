@@ -40,7 +40,7 @@ const AboutPage = () => {
       name: 'Designer Name',
       role: 'Lead Interior Designer',
       description: 'Creating beautiful, functional spaces that inspire',
-    },
+    }
   ]
 
   return (
@@ -66,10 +66,10 @@ const AboutPage = () => {
                 Our <span className="text-gold-gradient">Story</span>
               </h2>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                Founded in 2008, Innodecor Creations has grown from a small design studio to become one of Indore's most trusted names in interior design, construction, and real estate services.
+                Founded in 2008, Innodecor Creations has grown from a small design studio to become one of Indore&apos;s most trusted names in interior design, construction, and real estate services.
               </p>
               <p className="text-gray-600 mb-4 leading-relaxed">
-                With over 15 years of experience and 500+ successful projects, we've built a reputation for excellence, innovation, and unwavering commitment to client satisfaction.
+                With over 15 years of experience and 500+ successful projects, we&apos;ve built a reputation for excellence, innovation, and unwavering commitment to client satisfaction.
               </p>
               <p className="text-gray-600 leading-relaxed">
                 Our team of skilled architects, designers, engineers, and craftsmen work together to transform visions into reality, creating spaces that are not just beautiful, but also functional and sustainable.
@@ -161,7 +161,7 @@ const AboutPage = () => {
       <section className="bg-primary text-white section-padding">
         <div className="container-custom text-center">
           <h2 className="font-serif text-4xl font-bold mb-6">
-            Let's Work Together
+            Let&apos;s Work Together
           </h2>
           <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
             Ready to transform your space? Get in touch with us today
