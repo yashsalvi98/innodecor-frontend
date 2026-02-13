@@ -35,7 +35,7 @@ const About = () => {
               <span className="text-gold-gradient block">Inspire & Elevate</span>
             </h2>
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Innodecor Creations is Indore's premier destination for luxury interior design, construction excellence, and real estate solutions. With over 15 years of experience, we've transformed hundreds of residential and commercial spaces into masterpieces.
+              Innodecor Creations is Indore&apos;s premier destination for luxury interior design, construction excellence, and real estate solutions. With over 15 years of experience, we&apos;ve transformed hundreds of residential and commercial spaces into masterpieces.
             </p>
             <p className="text-gray-600 mb-8 leading-relaxed">
               Our commitment to quality, attention to detail, and client-centric approach has made us the trusted choice for discerning clients across Madhya Pradesh.
